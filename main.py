@@ -10,7 +10,7 @@ def print_all(lines):
         print(title.split("- song")[0][:-1] + "\t" + "\t".join((title.split("- song")[1][15:-10]).split(", ")))
 
 
-with open('box_scores.txt') as f:
+with open('links.txt') as f:
     lines = [s.strip("\n") for s in f.readlines()]
 
 if __name__ == "__main__":
